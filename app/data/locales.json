@@ -1,32 +1,75 @@
 [
     {
+        "id": 0,
         "nombre": "El Buen Gusto",
-        "imagen": "image_1.png",
-        "id_ubicacion": 1
+        "tipo_cocina": "Italiana",
+        "ingredientes": ["Tomate","Queso","Pasta","Ajo","Marisco","Aceite de Oliva"],
+        "precio_minimo": 2000,
+        "precio_maximo": 8000,
+        "popularidad": 4.5,
+        "disponibilidad": true,
+        "id_ubicacion": "1",
+        "imagen": "image_1.png"
+
     },
     {
+        "id": 1,
         "nombre": "La Monumental",
-        "imagen": "image_2.png",
-        "id_ubicacion": 2
+        "tipo_cocina": "Mediterránea",
+        "ingredientes": ["Tomate","Pescado","Pan","Especies","Carnes","Aceite de Oliva", "Yogur"],
+        "precio_minimo": 1700,
+        "precio_maximo": 6000,
+        "popularidad": 4.2,
+        "disponibilidad": false,
+        "id_ubicacion": 2,
+        "imagen": "image_2.png"
     },
     {
+        "id": 2,
         "nombre": "La 12",
-        "imagen": "image_3.png",
-        "id_ubicacion": 3
+        "tipo_cocina": "Regional",
+        "ingredientes": ["Carne de Vaca","Cordero","Cabra","Cerdo","Gallina","Maíz", "Porotos", "Huevos", "Ají", "Comino","Pimentón"],
+        "precio_minimo": 2100,
+        "precio_maximo": 7000,
+        "popularidad": 4.8,
+        "disponibilidad": true,
+        "id_ubicacion": 3,
+        "imagen": "image_3.png"
     },
     {
+        "id": 3,
         "nombre": "Donatello",
-        "imagen": "image_4.png",
-        "id_ubicacion": 4
+        "tipo_cocina": "Italiana",
+        "ingredientes": ["Tomate","Queso","Pasta","Ajo","Marisco","Aceite de Oliva"],
+        "precio_minimo": 2000,
+        "precio_maximo": 8000,
+        "popularidad": 4.1,
+        "disponibilidad": false,
+        "id_ubicacion": 4,
+        "imagen": "image_4.png"
     },
     {
+        "id": 4,
         "nombre": "Lo del Negro Copa",
-        "imagen": "image_5.png",
-        "id_ubicacion": 5
+        "tipo_cocina": "Regional",
+        "ingredientes": ["Carne de Vaca","Cordero","Cabra","Cerdo","Gallina","Maíz", "Porotos", "Huevos", "Ají", "Comino","Pimentón"],
+        "precio_minimo": 1700,
+        "precio_maximo": 4500,
+        "popularidad": 4.1,
+        "disponibilidad": true,
+        "id_ubicacion": 5,
+        "imagen": "image_5.png"
     },
     {
+        "id": 5,
         "nombre": "Pizza Mara",
-        "imagen": "image_6.png",
-        "id_ubicacion": 6
+        "tipo_cocina": "Italiana",
+        "ingredientes": ["Tomate","Queso","Pasta","Ajo","Marisco","Aceite de Oliva"],
+        "precio_minimo": 1950,
+        "precio_maximo": 7500,
+        "popularidad": 4.8,
+        "disponibilidad": true,
+        "id_ubicacion": 6,
+        "imagen": "image_6.png"
     }
 ]

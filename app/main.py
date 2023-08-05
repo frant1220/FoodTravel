@@ -5,3 +5,4 @@ root = tk.Tk()
 root.title("Locales en la Zona")
 controlador = ControladorPrincipal(root)
 root.mainloop()
+        

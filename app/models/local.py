@@ -1,10 +1,17 @@
 import json
 
 class Local:
-    def __init__(self, nombre, imagen, id_ubicacion):
+    def __init__(self, id, nombre, tipo_cocina, ingredientes, precio_minimo, precio_maximo, popularidad, disponibilidad, id_ubicacion, imagen):
+        self.id = id
         self.nombre = nombre
-        self.imagen = imagen
+        self.tipo_cocina = tipo_cocina
+        self.ingredientes = ingredientes
+        self.precio_minimo = precio_minimo
+        self.precio_maximo = precio_maximo
+        self.popularidad = popularidad
+        self.disponibilidad = disponibilidad
         self.id_ubicacion = id_ubicacion
+        self.imagen = imagen
 
     def a_json(self):
         return json.dumps(self.__dict__)
@@ -18,4 +25,4 @@ class Local:
     def cargar_locales(archivo_json):
         with open(archivo_json, "r") as archivo:
             datos = json.load(archivo)
-        return [Local.de_json(json.dumps(dato)) for dato in datos]
+        return [Local.de_json(json.dumps(dato)) for dato in datos] #convierte los datos del Json
